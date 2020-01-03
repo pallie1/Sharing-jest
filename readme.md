@@ -33,10 +33,10 @@ Smoke, functional, regression, performance, usability, security, compatibility, 
 
 
 ## What is Jest?
-Jest is an easy to configure testing framework built by Facebook for testing JavaScript code. Jest runs your tests for you automatically when you have it in watch mode. It runs your tests in node instead of the browser so that they run faster. It also contains the API we will use to actually test our components.
+[Jest](https://jestjs.io/en/) is an easy to configure testing framework built by Facebook for testing JavaScript code. Jest runs your tests for you automatically when you have it in watch mode. It runs your tests in node instead of the browser so that they run faster. It also contains the API we will use to actually test our components.
 
 ## What is Enzyme?
-Enzyme mimics JQuery's DOM manipulation library to make testing React easier. It allows us to grab the state of the component, simulate user actions, and grab elements from the virtual DOM.
+[Enzyme](https://github.com/airbnb/enzyme) mimics JQuery's DOM manipulation library to make testing React easier. It allows us to grab the state of the component, simulate user actions, and grab elements from the virtual DOM.
 
 ## Configuration (10 min / 0:20)
 Jest automatically looks for files with a `test.js` suffix, or for files in a `__tests__` folder. We will use the suffix today.
