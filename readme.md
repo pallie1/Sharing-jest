@@ -18,13 +18,6 @@ When we write code to test our other code!</details>
 <details><summary>Answer</summary>
 when you create a larger application, the codebase will become bigger and more complex every time you add some features. At some point, adding code in file A will break features in file B, and to avoid these "side-effects" or at least recognize immediately when they happen, we need to write tests our app and run them on each change.</details>
 
-
-* What tools did we use to test Express apps?
-
-<details><summary>Answer</summary>
-Mocha, Chai, SuperTest</details>
-
-
 * What types of testing are there?
 
 <details><summary>Answer</summary>
