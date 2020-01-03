@@ -279,6 +279,8 @@ class ToDos extends Component {
     )
   }
 }
+
+export default ToDos
 ```
 
 `ToDo.js`
@@ -292,6 +294,8 @@ const ToDo = ({ task }) => {
     </div>
   )
 }
+
+export default ToDo
 ```
 Now that we made that one pass, let's add another. 
 ```js
