@@ -60,7 +60,9 @@ test('renders learn react link', () => {
 
 ```
 
-The `test()` function provides a description of the test and then a callback with the the code to perform the test. The other method to make note of is `expect()` which also is fairly descriptive is what it's trying to do. 
+The `test()` function provides a description of the test, in this case `renders learn react link` as well as a callback with the the code to perform the test. 
+
+The other method to make note of is `expect()` which is passed the `linkElement` and then runs the `toBeInTheDocument()` method.  As you can see the sytax is fairly descriptive as to what is being tested and how to perform the test. 
 
 Let's run the test:
 
@@ -70,8 +72,6 @@ yarn test
 <img src="https://i.imgur.com/foCyraY.png" alt="" width=400 />
 
 We get some feedback from the app that our tests are all passing!
-
-You can see in `App.test.js` that we only have one test right now: `✓ renders learn react link`. 
 
 Jest comes completely configured within `create-react-app`, so we don't have to do anything else to get it working. Let's now set up Enzyme.  This requires that we install 3 new packages:
 
