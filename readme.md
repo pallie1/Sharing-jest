@@ -108,7 +108,17 @@ Today, we will be building a couple of small projects in React. Let's create a c
 
 Then, let's create a `HelloWorld` subdirectory within the components directory to create our first tests.
 
-Let's create two files within it -- one called `HelloWorld.js` and one called `HelloWorld.test.js`. Right now, we want to build a component that just renders out a name that's fed to it via props. Let's write a test to see if our app is doing that!
+Let's create the following 2 files:
+
+- `HelloWorld.js` 
+- `HelloWorld.test.js`
+
+By adding the files the testing engine, which is in watch mode, will run the `HelloWorld.test.js` file.  It however doesn't have any code and so we should get an error:
+
+
+<img src="https://i.imgur.com/jyvNMBQ.png" alt="" width=400 />
+
+Right now, we want to build a component that just renders out a name that's fed to it via props. Let's write a test to see if our app is doing that!
 
 ```js
 //HelloWorld.test.js
