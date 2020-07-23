@@ -67,7 +67,7 @@ Let's run the test:
 ```bash
 yarn test
 ```
-<img src="./images/initial-tests.png" alt="" width=200 />
+<img src="./images/initial-tests.png" alt="" width=400 />
 
 We get some feedback from the app that our tests are all passing!
 
