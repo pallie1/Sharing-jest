@@ -117,7 +117,7 @@ By adding the files the testing engine, which is in watch mode, will run the `He
 
 <img src="https://i.imgur.com/jyvNMBQ.png" alt="" width=400 />
 
-So let's build a component that just renders out a name that's fed to it via props. Let's write a test to see if our app is doing that!
+Let's write a test that confirm the HelloWorld component renders out a name that's fed to it via props. 
 
 ```js
 import React from 'react'
@@ -141,29 +141,27 @@ In this test we are incorporating the following methods:
 - it: a single test
 - [shallow](https://github.com/enzymejs/enzyme/blob/master/docs/api/shallow.md): renders a component without rendering any of its children
 
-Of course the test will fail once again as we haven't written the Component
+The testing engine should rerun automatically and this time the App test passes but not HelloWorld. 
+
+<img src="https://i.imgur.com/GzP9B2u.png" alt="" width=400 />
+
+Of course the reason being that we haven't written the actual HelloWorld Component as of yet. 
 
 Now, using test driven development principles, we will write the minimum code for it to pass. In this example, we just need a component that renders a name in it.
 
 ```js
 import React from 'react';
 
-function HelloWorld(props) {
-    return (
-        <h1>{props.name}</h1>
-    )
-}
+const HelloWorld = (props) => (
+    <h1>{props.name}</h1>
+)
 
 export default HelloWorld;
 ```
 
-Now import the component into App.js and pass it a name prop.
-
-
 <img src="https://i.imgur.com/VKvWMdf.png" alt="" width=400 />
 
-Now our test passes!
-
+The test passes without the need to import and run the component, nor pass it an actual prop. 
 
 <img src="https://i.imgur.com/tij6txZ.png" alt="" width=400 />
 
