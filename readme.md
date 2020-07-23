@@ -377,6 +377,8 @@ Bonus: look at the completed application using `yarn start` and then style the a
 <details open>
 <summary>Solution</summary>
 <br>
+  
+ToDo.js
 ```js
 import React from 'react'
 
@@ -392,6 +394,7 @@ const ToDo = ({ task, markComplete }) => {
 export default ToDo
 
 ```
+
 </details>
 
 [Solution](https://git.generalassemb.ly/ga-wdi-exercises/react-testing/tree/solution/src/components/ToDos)
