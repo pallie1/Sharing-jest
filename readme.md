@@ -41,17 +41,32 @@ code .
 
 ### Preconfigured Tests
 
-The app already has been configured with a single predefined test called: `App.test.js`.
+The app already has been configured with a single predefined test called `App.test.js` that tests `App.js`
 
-<img src="https://i.imgur.com/5vaMatt.png" alt="" width=300 />
+<img src="https://i.imgur.com/5vaMatt.png" alt="" width=200 />
 
-We can run some initial tests configured by create-react-app.
+App.test.js contains the following:
+
+```js
+import React from 'react';
+import { render } from '@testing-library/react';
+import App from './App';
+
+test('renders learn react link', () => {
+  const { getByText } = render(<App />);
+  const linkElement = getByText(/learn react/i);
+  expect(linkElement).toBeInTheDocument();
+});
+
+```
+
+The `test()` function provides a description of the test and then a callback with the the code to perform the test. The other method to make note of is `expect()` which also is fairly descriptive is what it's trying to do. 
+
+Let's run the test:
 
 ```bash
 yarn test
 ```
-
-
 
 ![](./images/initial-tests.png)
 
