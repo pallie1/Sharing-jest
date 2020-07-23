@@ -34,7 +34,11 @@ cd testing-lesson
 ```
 
 
-We can run `$ yarn test` right now and see what happens.
+We can run some initial tests configured by create-react-app.
+
+```bash
+yarn test
+```
 
 ![](./images/initial-tests.png)
 
