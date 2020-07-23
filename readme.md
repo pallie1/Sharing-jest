@@ -232,8 +232,6 @@ Take a look at the documentation for [Jest](https://facebook.github.io/jest/docs
   })
 ```
 
-[Solution](https://git.generalassemb.ly/ga-wdi-exercises/react-testing/blob/solution/src/components/Counter/Counter.js)
-
 ## Break (10 min / 1:00)
 
 ## We Do: To Do List App (60 min / 2:00)
