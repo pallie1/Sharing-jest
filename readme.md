@@ -195,9 +195,8 @@ describe('Counter component', () => {
 
 })
 ```
-Now run `$ yarn test`. All previous tests should still be passing! No need to exit out of the tests, they will rerun automatically every time you save.
 
-One by one, copy a test into the body of the testing block. Then, make that test succeed before copying in another one.
+One by one, copy/paste the tests provided into the body of the testing block. Then add the code needed in the `Counter` component to pass the test before adding the next text. 
 
 Take a look at the documentation for Jest and Enzyme as well. They will give you some context for the english verb-like function names.
 
