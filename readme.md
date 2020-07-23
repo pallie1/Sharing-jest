@@ -206,8 +206,8 @@ Take a look at the documentation for [Jest](https://facebook.github.io/jest/docs
   })
 ```
 
-[.contains()](https://github.com/enzymejs/enzyme/blob/master/docs/api/ShallowWrapper/contains.md)
-[.toBe()](https://jestjs.io/docs/en/expect#tobevalue)
+- [.contains()](https://github.com/enzymejs/enzyme/blob/master/docs/api/ShallowWrapper/contains.md) 
+- [.toBe()](https://jestjs.io/docs/en/expect#tobevalue)
 
 ```js
   it('should have a state attribute called number initialized to zero', () => {
@@ -215,8 +215,8 @@ Take a look at the documentation for [Jest](https://facebook.github.io/jest/docs
   })
 ```
 
-[.state()](https://github.com/enzymejs/enzyme/blob/master/docs/api/ShallowWrapper/state.md)
-[.toEqual()](https://jestjs.io/docs/en/expect#toequalvalue)
+- [.state()](https://github.com/enzymejs/enzyme/blob/master/docs/api/ShallowWrapper/state.md)
+- [.toEqual()](https://jestjs.io/docs/en/expect#toequalvalue)
 
 ```js
   it('should display the current number in an element with the className number', () => {
@@ -224,8 +224,8 @@ Take a look at the documentation for [Jest](https://facebook.github.io/jest/docs
   })
 ```
 
-[.find()](https://github.com/enzymejs/enzyme/blob/master/docs/api/ShallowWrapper/find.md)
-[.text()](https://github.com/enzymejs/enzyme/blob/master/docs/api/ShallowWrapper/text.md)
+- [.find()](https://github.com/enzymejs/enzyme/blob/master/docs/api/ShallowWrapper/find.md)
+- [.text()](https://github.com/enzymejs/enzyme/blob/master/docs/api/ShallowWrapper/text.md)
 
 ```js
   it('should have a button with a class plus that increases the number in state', () => {
