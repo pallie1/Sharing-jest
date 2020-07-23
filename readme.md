@@ -120,26 +120,28 @@ By adding the files the testing engine, which is in watch mode, will run the `He
 So let's build a component that just renders out a name that's fed to it via props. Let's write a test to see if our app is doing that!
 
 ```js
-//HelloWorld.test.js
-
-// Import React
 import React from 'react'
 import { shallow } from 'enzyme'
 
 import HelloWorld from './HelloWorld'
 
-// We will describe a block of tests
 describe('Hello world component', () => {
-	// we will write one individual test
+
   it('should render as expected', () => {
-    // Shallow rendering renders a component without rendering any of its children
     const component = shallow(<HelloWorld name={'Your name'} />)
-    // We create an assertion within the test that checks if our component renders our name prop
     expect(component.contains('Your name')).toBe(true)
   })
 })
 
 ```
+
+In this test we are incorporating the following methods:
+
+- describe: will describe a block of tests
+- it: a single test
+- [shallow](https://github.com/enzymejs/enzyme/blob/master/docs/api/shallow.md): renders a component without rendering any of its children
+
+https://github.com/enzymejs/enzyme/blob/master/docs/api/shallow.md
 Of course the test will fail once again as we haven't written the Component
 
 Now, using test driven development principles, we will write the minimum code for it to pass. In this example, we just need a component that renders a name in it.
