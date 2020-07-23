@@ -101,7 +101,7 @@ Here is an article about the benefits of test driven development.
 
 - [9-benefits-of-test-driven-development](https://www.madetech.com/blog/9-benefits-of-test-driven-development)
 
-## We Do: Hello World
+## Writing Our First Test
 Today, we will be building a couple of small projects in React. Let's create a components folder to store them.
 
 `$ mkdir src/components`
@@ -165,7 +165,7 @@ The test passes without the need to import and run the component, nor pass it an
 
 <img src="https://i.imgur.com/tij6txZ.png" alt="" width=400 />
 
-## You Do: Writing Tests for a Counter App (30 min / 0:50)
+## Writing Tests for a Counter App (30 min / 0:50)
 
 For this exercise, you will be using test driven development to write the React code to pass some pre-written tests. 
 
