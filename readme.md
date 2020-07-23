@@ -141,7 +141,6 @@ In this test we are incorporating the following methods:
 - it: a single test
 - [shallow](https://github.com/enzymejs/enzyme/blob/master/docs/api/shallow.md): renders a component without rendering any of its children
 
-https://github.com/enzymejs/enzyme/blob/master/docs/api/shallow.md
 Of course the test will fail once again as we haven't written the Component
 
 Now, using test driven development principles, we will write the minimum code for it to pass. In this example, we just need a component that renders a name in it.
