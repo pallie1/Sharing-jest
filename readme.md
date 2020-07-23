@@ -6,11 +6,6 @@
 * Implement test driven development processes
 * Use Jest and Enzyme to test React applications
 
-* What is automated testing?
-## Quick Review (5 min / 0:10)
-
-<details><summary>Answer</summary>
-When we write code to test our other code!</details>
 
 ## What is Jest?
 [Jest](https://jestjs.io/en/) is an easy to configure testing framework built by Facebook for testing JavaScript code. Jest runs your tests for you automatically when you have it in watch mode. It runs your tests in node instead of the browser so that they run faster. It also contains the API we will use to actually test our components.
