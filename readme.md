@@ -68,7 +68,11 @@ configure({ adapter: new Adapter() })
 We should be good to write our first tests!
 
 ## What is Test Driven Development?
-Test driven development is a development strategy where you write the tests first and then your code second. The tests should fail first, then you should write the minimum code necessary to make that test pass, then refactor to make the code cleaner. Then the cycle starts again with a new test! We will be using test driven development today. [Here](https://www.madetech.com/blog/9-benefits-of-test-driven-development) is an article about the benefits of test driven development.
+Test driven development is a development strategy where you write the tests first and then your code second. The tests should fail first, then you should write the minimum code necessary to make that test pass, then refactor to make the code cleaner. Then the cycle starts again with a new test! We will be using test driven development today. 
+
+Here is an article about the benefits of test driven development.
+
+- [9-benefits-of-test-driven-development](https://www.madetech.com/blog/9-benefits-of-test-driven-development)
 
 ## We Do: Hello World
 Today, we will be building a couple of small projects in React. Let's create a components folder to store them.
