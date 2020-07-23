@@ -501,6 +501,5 @@ describe('ToDos Component', () => {
 * What is the difference between `shallow` and `mount`?
 
 ### Resources
-* [Solution Branch](https://git.generalassemb.ly/ga-wdi-exercises/react-testing/tree/solution/src)
 * [Jest](http://facebook.github.io/jest/)
 * [Enzyme](https://github.com/airbnb/enzyme/tree/master/docs/api)
