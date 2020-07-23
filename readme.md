@@ -234,7 +234,7 @@ Take a look at the documentation for [Jest](https://facebook.github.io/jest/docs
 
 ## Break (10 min / 1:00)
 
-## We Do: To Do List App (60 min / 2:00)
+## To Do List App (60 min / 2:00)
 Let's now create a To Do list app using test driven development. First let's create our files.
 
 We will have two components -- a `ToDos.js` component which will hold individual `Todo.js` components.
@@ -287,16 +287,14 @@ import React, { Component } from 'react'
 
 import ToDo from './ToDo'
 
-class ToDos extends Component {
-  render () {
+function ToDos() {
     return (
       <div>
-        {this.props.tasks.map((task, idx) => 
+        {this.props.tasks.map( (task, idx) => 
           <ToDo task={task} key={idx} />
         )}
       </div>
     )
-  }
 }
 
 export default ToDos
@@ -352,25 +350,16 @@ Note that we can mock events by adding targets and values to the `simulate` meth
 
 `ToDos.js`
 ```diff
-class ToDos extends Component {
-  constructor (props) {
-    super(props)
+function ToDos(props) {
+  const [newTodo, setNewTodo] = useState('')
 
-    this.state = {
-+      newTodo: '',
-    }
-  }
-
-+  handleChange = e => {
-+    this.setState({
-+      newTodo: e.target.value
-+    })
++  const handleChange = e => {
+     setNewTodo(e.target.value)
 +  }
 
-  render () {
     return (
       <div>
-+        <input onChange={this.handleChange}/>
++        <input onChange={handleChange}/>
 ...
 ```
 
