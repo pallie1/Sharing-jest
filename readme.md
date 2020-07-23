@@ -198,10 +198,7 @@ describe('Counter component', () => {
 
 One by one, copy/paste the tests provided into the body of the testing block. Then add the code needed in the `Counter` component to pass the test before adding the next text. 
 
-Take a look at the documentation for Jest and Enzyme as well. They will give you some context for the english verb-like function names.
-
-* https://facebook.github.io/jest/docs/en/api.html
-* https://github.com/airbnb/enzyme/tree/master/docs/api
+Take a look at the documentation for [Jest](https://facebook.github.io/jest/docs/en/api.html) and [Enzyme](https://github.com/airbnb/enzyme/tree/master/docs/api) as well. They will give you some context for the english verb-like function names.
 
 ```js
   it('should have a header that says "Counter"', () => {
