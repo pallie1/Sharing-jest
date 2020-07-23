@@ -46,7 +46,11 @@ We get some feedback from the app that our tests are all passing!
 
 You can see in `App.test.js` that we only have one test right now: `renders without crashing`. 
 
-Jest comes completely configured within `create-react-app`, so we don't have to do anything else to get it working. Let's now set up Enzyme.
+Jest comes completely configured within `create-react-app`, so we don't have to do anything else to get it working. Let's now set up Enzyme.  This requires that we install 3 new packages:
+
+- enzyme 
+- enzyme-adapter-react-16
+- react-test-renderer
 
 ```bash
 $ yarn add enzyme enzyme-adapter-react-16 react-test-renderer
