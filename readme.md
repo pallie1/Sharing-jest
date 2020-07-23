@@ -137,8 +137,8 @@ describe('Hello world component', () => {
 
 In this test we are incorporating the following methods:
 
-- describe: will describe a block of tests
-- it: a single test
+- describe: will describe a block of tests with each test being defined using the `it` method
+- it: performs a single test
 - [shallow](https://github.com/enzymejs/enzyme/blob/master/docs/api/shallow.md): renders a component without rendering any of its children
 
 The testing engine should rerun automatically and this time the App test passes but not HelloWorld. 
