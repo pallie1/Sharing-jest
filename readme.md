@@ -17,12 +17,6 @@ Jest automatically looks for files with a `test.js` suffix, or for files in a `_
 
 Let's start a React app for our testing purposes today.
 
-If you have `create-react-app` installed globally with npm, run: 
-```bash
-$ create-react-app testing-lesson
-```
-
-Otherwise run 
 ```bash
 $ npx create-react-app testing-lesson
 ```
