@@ -27,6 +27,13 @@ Let's start a React app for our testing purposes today.
 $ npx create-react-app testing-lesson
 ```
 
+Change into `testing-lesson`
+
+```bash
+cd testing-lesson
+```
+
+
 We can run `$ yarn test` right now and see what happens.
 
 ![](./images/initial-tests.png)
