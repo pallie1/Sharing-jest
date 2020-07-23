@@ -214,11 +214,16 @@ Take a look at the documentation for [Jest](https://facebook.github.io/jest/docs
   })
 ```
 
+[.state()](https://github.com/enzymejs/enzyme/blob/master/docs/api/ShallowWrapper/state.md)
+
 ```js
   it('should display the current number in an element with the className number', () => {
     expect(component.find('.number').text()).toEqual("0")
   })
 ```
+
+[.find()](https://github.com/enzymejs/enzyme/blob/master/docs/api/ShallowWrapper/find.md)
+[.text()](https://github.com/enzymejs/enzyme/blob/master/docs/api/ShallowWrapper/text.md)
 
 ```js
   it('should have a button with a class plus that increases the number in state', () => {
