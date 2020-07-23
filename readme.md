@@ -207,29 +207,24 @@ Take a look at the documentation for Jest and Enzyme as well. They will give you
 * https://facebook.github.io/jest/docs/en/api.html
 * https://github.com/airbnb/enzyme/tree/master/docs/api
 
-
-1. 
 ```js
   it('should have a header that says "Counter"', () => {
     expect(component.contains(<h1>Counter</h1>)).toBe(true)
   })
 ```
 
-2.
 ```js
   it('should have a state attribute called number initialized to zero', () => {
     expect(component.state('number')).toEqual(0)
   })
 ```
 
-3.
 ```js
   it('should display the current number in an element with the className number', () => {
     expect(component.find('.number').text()).toEqual("0")
   })
 ```
 
-4.
 ```js
   it('should have a button with a class plus that increases the number in state', () => {
     component.find('.plus').simulate('click')
@@ -237,7 +232,6 @@ Take a look at the documentation for Jest and Enzyme as well. They will give you
   })
 ```
 
-5.
 ```js
   it('should have a button with a class minus that decreases the number in state', () => {
     component.find('.minus').simulate('click')
