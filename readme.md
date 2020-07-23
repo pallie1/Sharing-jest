@@ -493,7 +493,6 @@ describe('ToDos Component', () => {
 
 </details>
 
-[Solution](https://git.generalassemb.ly/ga-wdi-exercises/react-testing/tree/solution/src/components/ToDos)
 
 ## Conclusion
 * Why is test driven development helpful?
