@@ -142,23 +142,29 @@ describe('Hello world component', () => {
 ```
 Of course the test will fail once again as we haven't written the Component
 
-Now, using test driven development principles, we will write the minimum code for it to pass. In this example, we just need a component that renders a name in it. Let's implement that:
+Now, using test driven development principles, we will write the minimum code for it to pass. In this example, we just need a component that renders a name in it.
 
 ```js
 import React from 'react';
 
-class HelloWorld extends React.Component {
-
-	render() {
-		return (
-			<h1>{this.props.name}</h1>
-		)
-	}
+function HelloWorld(props) {
+    return (
+        <h1>{props.name}</h1>
+    )
 }
 
 export default HelloWorld;
 ```
+
+Now import the component into App.js and pass it a name prop.
+
+
+<img src="https://i.imgur.com/VKvWMdf.png" alt="" width=400 />
+
 Now our test passes!
+
+
+<img src="https://i.imgur.com/tij6txZ.png" alt="" width=400 />
 
 ## You Do: Writing Tests for a Counter App (30 min / 0:50)
 
