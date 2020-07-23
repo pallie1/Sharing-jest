@@ -33,12 +33,25 @@ Change into `testing-lesson`
 cd testing-lesson
 ```
 
+Open in vscode or your editor of choice. 
+
+```bash
+code .
+```
+
+### Preconfigured Tests
+
+The app already has been configured with a single predefined test called: `App.test.js`.
+
+<img src="https://i.imgur.com/5vaMatt.png" alt="" width=300 />
 
 We can run some initial tests configured by create-react-app.
 
 ```bash
 yarn test
 ```
+
+
 
 ![](./images/initial-tests.png)
 
