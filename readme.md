@@ -18,16 +18,40 @@ Jest automatically looks for files with a `test.js` suffix, or for files in a `_
 Let's start a React app for our testing purposes today.
 
 ```bash
-$ npx create-react-app testing-lesson
+npx create-react-app testing-lesson
 ```
 
-We can run `$ yarn test` right now and see what happens.
+Change into the app directory
 
-![](./images/initial-tests.png)
+```bash
+cd testing-lesson
+```
+
+React comes with a predefined test to run against the App component and the test in located in `App.test.js`
+
+<img src="https://i.imgur.com/cVvdBoN.png" width=200/>
+
+Inside `App.test.js` we can see the test:
+
+```js
+import React from 'react';
+import { render } from '@testing-library/react';
+import App from './App';
+
+test('renders learn react link', () => {
+  const { getByText } = render(<App />);
+  const linkElement = getByText(/learn react/i);
+  expect(linkElement).toBeInTheDocument();
+});
+```
+
+The test will confirm that the component `renders learn react link`. 
+
+Now run `$ yarn test` and see what happens.
+
+<img src="https://i.imgur.com/8dkB5Pl.png" width=200/>
 
 We get some feedback from the app that our tests are all passing!
-
-You can see in `App.test.js` that we only have one test right now: `renders without crashing`. We are going to be using Enzyme on top of Jest, so our tests will look different today.
 
 Jest comes completely configured within `create-react-app`, so we don't have to do anything else to get it working. Let's now set up Enzyme.
 
