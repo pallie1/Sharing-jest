@@ -49,7 +49,7 @@ The test will confirm that the component `renders learn react link`.
 
 Now run `$ yarn test` and see what happens.
 
-<img src="https://i.imgur.com/8dkB5Pl.png" width=200/>
+<img src="https://i.imgur.com/8dkB5Pl.png" width=400/>
 
 We get some feedback from the app that our tests are all passing!
 
