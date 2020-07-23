@@ -206,6 +206,8 @@ Take a look at the documentation for [Jest](https://facebook.github.io/jest/docs
   })
 ```
 
+[.contains()](https://github.com/enzymejs/enzyme/blob/master/docs/api/ShallowWrapper/contains.md)
+
 ```js
   it('should have a state attribute called number initialized to zero', () => {
     expect(component.state('number')).toEqual(0)
