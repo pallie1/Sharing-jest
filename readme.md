@@ -374,6 +374,13 @@ Write the following tests. After writing a test, implement the React code to pas
 
 Bonus: look at the completed application using `yarn start` and then style the application accordingly.
 
+<details open>
+<summary>Solution</summary>
+<br>
+```js
+```
+</details>
+
 [Solution](https://git.generalassemb.ly/ga-wdi-exercises/react-testing/tree/solution/src/components/ToDos)
 
 ## Conclusion
